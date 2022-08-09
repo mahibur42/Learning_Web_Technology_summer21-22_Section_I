@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGSTRATION</title>
+    <script>
+        function showhint(str) {
+          if (str.length == 0) {
+            document.getElementById("txtHint").innerHTML = "";
+            return;
+          } else {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+              }
+            };
+            xmlhttp.open("GET", "gethint.php?q=" + str, true);
+            xmlhttp.send();
+          }
+        }
+    </script>
+</head>
+<body>
+
+	<form method="post" action="RegCheck.php">
+		
+		  <table border="3" align="center" width="700px" height="330px">
+
+           
+
+                <tr>
+                    <td align="center">
+                        <legend><b>Registration</b></legend>
+			
+			        <table>
+			       
+				       
+				        <tr>
+					      <td><b>Employee Name:</b></td>
+				          <td><input type="text" id="empid" name="empname" placeholder="Name of Employee" value=""></td>
+				        </tr>
+				        
+				        
+				       <tr>
+					      <td><b>Username:</b></td>
+				          <td><input type="text" id="username" name="username" placeholder="Username" value="" onkeyup="showhint(this.value)"></td>
+				        </tr>
+                
+				        <tr>
+					        <td><b>Contact Number:</b></td>
+					        <td><input type="text" id="number" name="number" placeholder="Mobile Number" value=""></td>
+				        </tr>
+                        <tr>
+					        <td><b>Company Name:</b></td>
+					        <td><input type="text" id="company" name="company" placeholder="Name of a company" value=""></td>
+				        </tr>
+                        <tr>
+					        <td><b>Password:</b></td>
+					        <td><input type="password" id="password" name="password" value=""></td>
+				        </tr>
+                        
+				       
+                        <tr>
+					        <td colspan="2"><input type="submit" name="submit" value="submit">
+                                <a href="Login.html">Login</a>
+                                <a href="Home.php">Back</a>
+                            </td>
+					        
+				        </tr>
+			         </table>
+                    </td>
+                </tr>
+            </table>
+
+	</form>
+	<script>
+		function validate(){
+
+			let username=document.getElementById('username').value;
+			let empname=document.getElementById('empname').value;
+			let number=document.getElementById('number').value;
+			let password=document.getElementById('password').value;
+			let company=document.getElementById('company').value;
+
+			if(username !="")
+			{
+				return true;
+			}
+			else{
+				alert('null username');
+				return false;
+			}
+			if(empname !="")
+			{
+				return true;
+			}
+			else{
+				alert('null Employee name');
+				return false;
+			}if(number !="")
+			{
+				return true;
+			}
+			else{
+				alert('null number');
+				return false;
+			}if(password !="")
+			{
+				return true;
+			}
+			else{
+				alert('null password');
+				return false;
+			}
+
+
+
+		}
+	</script>
+</body>
+</html>
