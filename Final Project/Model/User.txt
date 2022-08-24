@@ -1,0 +1,14 @@
+111|payel|programmer1001101@gmail.com|2022-07-15|Male|dhaka1200|111|Customer|;
+111|payel|pauleshan11@gmail.com|2022-07-22|Male|dhaka1235|222|Customer|;
+889|kk|pauleshan11@gmail.com|2022-07-15|Male|dhaka3600|889|Customer|;
+124|payel|mahiburpayel1001101@gmail.com|2022-07-22|Male|dhaka3600|124|Customer|;
+124|www|pauleshan11@gmail.com|2022-07-16|Male|dhaka3600|111|Customer|;
+111|mahiburpayel1001101@gmail.com|pauleshan11@gmail.com|2000-01-16|Male|dhaka3600|00000|Accountant|;
+111|mahiburpayel1001101@gmail.com|mahiburpayel1001101@gmail.com|2022-12-20|Male|dhaka3600|000|Accountant|;
+11|kk|programmer1001101@gmail.com|2022-07-13|Male|dhaka1235|11|Accountant|;
+1111|ertyhh|pauleshan11@gmail.com|2022-07-08|Other|dhaka1200|1111|Admin|;
+111111|asdf|pauleshan11@gmail.com|2022-07-23|Male|dhaka3600|11111|Admin|;
+111|mahiburpayel1001101@gmail.com|programmer1001101@gmail.com|2022-06-06|Female|dhaka1200|111|Accountant|;
+222|222|mahiburpayel1001101@gmail.com|2022-07-08|Female|dhaka3600|222|Accountant|;
+111|111|mahiburpayel1001101@gmail.com|2022-06-28|Female|dhaka3600|111|Accountant|;
+111|kk|programmer1001101@gmail.com|2022-07-12|Male|aaaa|aaa|Admin|;
